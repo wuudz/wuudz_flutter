@@ -11,8 +11,12 @@ dependencies:
   flutter:
     sdk: flutter
 
+  jiffy: ^4.1.0
   flutter_bloc: ^8.0.0
   collection: ^1.15.0
+  flutter_markdown: ^0.6.8
+  visibility_detector: ^0.2.2
+  url_launcher: ^6.0.4
 
 dev_dependencies:
   flutter_test:
