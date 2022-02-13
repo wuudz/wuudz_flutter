@@ -36,11 +36,11 @@ class WZMarkdown extends StatelessWidget {
       listBulletPadding: const EdgeInsets.fromLTRB(0, 0, 8, 0),
       code: textTheme.small.body1,
       codeblockDecoration: const BoxDecoration(
-        color: WZColors.grey25,
+        color: WZColors.grey20,
       ),
       blockquote: textTheme.large.body1,
       blockquoteDecoration: const BoxDecoration(
-        color: WZColors.grey25,
+        color: WZColors.grey20,
       ),
       blockquotePadding: const EdgeInsets.all(16),
       horizontalRuleDecoration: BoxDecoration(

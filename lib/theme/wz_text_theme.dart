@@ -86,15 +86,15 @@ class WZTextTheme {
     ),
     body1: TextStyle(
       fontFamily: "ProximaNova",
-      fontSize: 16,
-      height: 24.0/16,
+      fontSize: 14,
+      height: 18.0/14,
       fontWeight: FontWeight.normal,
       color: WZColors.textPrimary
     ),
     body2: TextStyle(
       fontFamily: "ProximaNova",
-      fontSize: 14,
-      height: 24.0/14,
+      fontSize: 12,
+      height: 16.0/12,
       fontWeight: FontWeight.normal,
       color: WZColors.textPrimary
     ),

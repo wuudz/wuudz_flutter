@@ -48,23 +48,23 @@ class InheritedWZTheme extends InheritedTheme {
 @immutable
 class WZThemeData {
   final WZTextThemeData textTheme;
-  final WZMessagingThemeData? messagingTheme;
+  final WZMessageTheme? messageTheme;
   final MarkdownStyleSheet? markdownStyle;
 
   const WZThemeData({
     this.textTheme = WZTextThemeData.normal,
-    this.messagingTheme,
+    this.messageTheme,
     this.markdownStyle,
   });
 
   WZThemeData copyWith({
     WZTextThemeData? textTheme,
-    WZMessagingThemeData? messagingTheme,
+    WZMessageTheme? messageTheme,
     MarkdownStyleSheet? markdownStyle,
   }) {
     return WZThemeData(
       textTheme: textTheme ?? this.textTheme,
-      messagingTheme: messagingTheme ?? this.messagingTheme,
+      messageTheme: messageTheme ?? this.messageTheme,
       markdownStyle: markdownStyle ?? this.markdownStyle,
     );
   }
